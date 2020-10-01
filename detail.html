@@ -1,223 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ads</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ads</title>
+    <!--boostrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
 
-  <!--boostrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-  </script>
+    <!-- style css -->
+    <link rel="stylesheet" href="asset/css/style-2.css" />
 
-  <!-- style css -->
-  <link rel="stylesheet" href="asset/css/style-2.css" />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- google font -->
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@300;400;600;700&display=swap"
-    rel="stylesheet" />
+    <!-- font awesome -->
+    <script src="https://use.fontawesome.com/4dae345a39.js"></script>
+  </head>
 
-  <!-- font awesome -->
-  <script src="https://use.fontawesome.com/4dae345a39.js"></script>
-</head>
+  <body>
+    <!-- header login -->
+    <header class="header-login">
+      <!-- navbar -->
+      <div class="container navbar-container">
+        <nav
+          class="navbar navbar-login navbar-expand-lg navbar-light bg-transparent"
+        >
+          <a class="navbar-brand" href="index.html">ADS</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-<body>
-  <!-- header login -->
-  <header class="header-login">
-    <!-- navbar -->
-    <div class="container navbar-container">
-      <nav class="navbar navbar-login navbar-expand-lg navbar-light bg-transparent">
-        <a class="navbar-brand" href="index.html">ADS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto ml-lg-5">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-          </ul>
-          <a href="login.html"><button class="btn btn-login" type="submit">Login</button></a>
-        </div>
-      </nav>
-    </div>
-
-    <!-- breadcumb -->
-    <div class="container mr-5 mt-3">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb bg-transparent">
-          <li class="breadcrumb-item">
-            <a href="index.html#ads-content">Home</a>
-          </li>
-          <li class="breadcrumb-item active" aria-current="page">Detail</li>
-        </ol>
-      </nav>
-    </div>
-  </header>
-
-  <!-- product detail -->
-  <div class="container-fluid product">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 col-12">
-        <figure class="figure">
-          <div class="container-fluid box-img d-flex justify-content-center">
-            <img src="asset/img/ads-1.png" class="jumbo-img" />
-            <p class="highlight">highlight</p>
-            <a href="#" class="view">View</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ml-lg-5">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <a href="login.html"
+              ><button class="btn btn-login" type="submit">Login</button></a
+            >
           </div>
-          <figcaption class="figure-caption product-thumbnail-container">
-            <a>
-              <img src="asset/img/ads-2.png" width="167" class="img-fluid img-ads" height="120" />
-            </a>
-            <a>
-              <img src="asset/img/ads-3.png" width="167" class="img-fluid img-ads" height="120" />
-            </a>
-            <a>
-              <img src="asset/img/ads-1.png" width="167" class="img-fluid img-ads" height="120" />
-            </a>
-            <a>
-              <img src="asset/img/ads-1.png" width="167" class="img-fluid img-ads" height="120" />
-            </a>
-            <a href="#">
-              <img src="asset/img/ads-more.png" width="167" class="img-fluid img-more" height="120" />
-            </a>
-          </figcaption>
-        </figure>
-        <div class="product-title">
-          <div class="container border-primary pl-2">
-            <div class="row justify-content-between">
-              <div class="col-lg-6 col-sm-6 col-8">
-                <h3>MacBook Pro <span>2019</span></h3>
+        </nav>
+      </div>
+
+      <!-- breadcumb -->
+      <div class="container mr-5 mt-3">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-transparent">
+            <li class="breadcrumb-item">
+              <a href="index.html#ads-content">Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Detail</li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+
+    <!-- product detail -->
+    <div class="container-fluid product">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-12">
+          <figure class="figure">
+            <div class="container-fluid box-img d-flex justify-content-center">
+              <img src="asset/img/ads-1.png" class="jumbo-img" />
+              <p class="highlight">highlight</p>
+              <a href="#" class="view">View</a>
+            </div>
+            <figcaption class="figure-caption product-thumbnail-container">
+              <a>
+                <img
+                  src="asset/img/ads-2.png"
+                  width="167"
+                  class="img-fluid img-ads"
+                  height="120"
+                />
+              </a>
+              <a>
+                <img
+                  src="asset/img/ads-3.png"
+                  width="167"
+                  class="img-fluid img-ads"
+                  height="120"
+                />
+              </a>
+              <a>
+                <img
+                  src="asset/img/ads-1.png"
+                  width="167"
+                  class="img-fluid img-ads"
+                  height="120"
+                />
+              </a>
+              <a>
+                <img
+                  src="asset/img/ads-1.png"
+                  width="167"
+                  class="img-fluid img-ads"
+                  height="120"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="asset/img/ads-more.png"
+                  width="167"
+                  class="img-fluid img-more"
+                  height="120"
+                />
+              </a>
+            </figcaption>
+          </figure>
+          <div class="product-title">
+            <div class="container border-primary pl-2">
+              <div class="row justify-content-between">
+                <div class="col-lg-6 col-sm-6 col-8">
+                  <h3>MacBook Pro <span>2019</span></h3>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4">
+                  <div class="box-icon">
+                    <i class="fa fa-share-alt" aria-hidden="true"></i>
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </div>
+                </div>
               </div>
-              <div class="col-lg-2 col-sm-3 col-4">
-                <div class="box-icon">
-                  <i class="fa fa-share-alt" aria-hidden="true"></i>
-                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <div class="row product-price">
+                <div class="col-lg-5">
+                  <h4>Rp. 25.000.000</h4>
+                </div>
+              </div>
+              <div class="row product-address justify-content-between">
+                <div class="col-lg-5 col-sm-6 col-5">
+                  <p>Jawa Barat, Kota Bogor</p>
+                </div>
+                <div class="col-lg-2 product-time col-sm-3 col-5">
+                  <p>Hari Ini</p>
                 </div>
               </div>
             </div>
-            <div class="row product-price">
-              <div class="col-lg-5">
-                <h4>Rp. 25.000.000</h4>
+          </div>
+          <div class="product-detail p-3">
+            <div class="container border-primary pl-2">
+              <div
+                class="row justify-content-between product-title-detail mb-2"
+              >
+                <div class="col-4">
+                  <h3>Details</h3>
+                </div>
               </div>
-            </div>
-            <div class="row product-address justify-content-between">
-              <div class="col-lg-5 col-sm-6 col-5">
-                <p>Jawa Barat, Kota Bogor</p>
+              <div class="row product-type mb-2">
+                <div class="col-lg-3 col-6">
+                  <h5>Tipe</h5>
+                  <h4>Laptop</h4>
+                </div>
+                <div class="col-lg-3 col-6">
+                  <h5>Kondisi</h5>
+                  <h4>Baru</h4>
+                </div>
               </div>
-              <div class="col-lg-2 product-time col-sm-3 col-5">
-                <p>Hari Ini</p>
+              <div class="row product-detail-description">
+                <div class="col-12">
+                  <h4>Deskripsi</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                    debitis voluptates laborum et sunt tempora numquam
+                    aspernatur, assumenda tempore maxime, fugit deserunt dolorem
+                    quod animi accusantium facere cupiditate saepe. Alias!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="product-detail p-3">
-          <div class="container border-primary pl-2">
-            <div class="row justify-content-between product-title-detail mb-2">
-              <div class="col-4">
-                <h3>Details</h3>
+          <div class="seller-detail">
+            <div class="row title">
+              <div class="col-12 col-lg-6">
+                <h3>Deskripsi Penjual</h3>
               </div>
             </div>
-            <div class="row product-type mb-2">
-              <div class="col-lg-3 col-6">
-                <h5>Tipe</h5>
-                <h4>Laptop</h4>
+            <div class="row seller-info align-items-center mt-3">
+              <div class="col-lg-2 col-3">
+                <div class="seller-image">
+                  <img src="asset/img/pas-foto.jpg" class="img-fluid" alt="" />
+                </div>
               </div>
-              <div class="col-lg-3 col-6">
-                <h5>Kondisi</h5>
-                <h4>Baru</h4>
+              <div class="col-lg-9 col-6">
+                <div class="seller-link">
+                  <a href="profile-seller-ads.html">
+                    <h4>Anggie Febi Yaditha</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-1 col-3">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
               </div>
             </div>
-            <div class="row product-detail-description">
+            <div class="row mt-4 link-wa">
               <div class="col-12">
-                <h4>Deskripsi</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                  debitis voluptates laborum et sunt tempora numquam
-                  aspernatur, assumenda tempore maxime, fugit deserunt dolorem
-                  quod animi accusantium facere cupiditate saepe. Alias!
-                </p>
+                <a href="#"
+                  ><button class="btn btn-wa btn-block">
+                    Chat Via WhatsApp
+                  </button></a
+                >
               </div>
             </div>
           </div>
-        </div>
-        <div class="seller-detail">
-          <div class="row title">
-            <div class="col-12 col-lg-6">
-              <h3>Deskripsi Penjual</h3>
-            </div>
-          </div>
-          <div class="row seller-info align-items-center mt-3">
-            <div class="col-lg-2 col-3">
-              <div class="seller-image">
-                <img src="asset/img/pas-foto.jpg" class="img-fluid" alt="" />
+          <div class="product-location">
+            <div class="row title">
+              <div class="col-lg-6 col-12">
+                <h3>Lokasi Iklan</h3>
               </div>
             </div>
-            <div class="col-lg-9 col-6">
-              <div class="seller-link">
-                <a href="">
-                  <h4>Anggie Febi Yaditha</h4>
-                </a>
+            <div class="row location">
+              <div class="col-12">
+                <p>Jawa Barat, Kota Bogor</p>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5606.289102452955!2d106.79451708203854!3d-6.49069787207032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c238ad2009b7%3A0x609a4b267e53af23!2sPasar%20Bojong%20Gede!5e0!3m2!1sen!2sid!4v1601018861701!5m2!1sen!2sid"
+                  width="100%"
+                  height="300"
+                  frameborder="0"
+                  style="border: 0"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+                ></iframe>
               </div>
-            </div>
-            <div class="col-lg-1 col-3">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            </div>
-          </div>
-          <div class="row mt-4 link-wa">
-            <div class="col-12">
-              <a href="#"><button class="btn btn-wa btn-block">
-                  Chat Via WhatsApp
-                </button></a>
-            </div>
-          </div>
-        </div>
-        <div class="product-location">
-          <div class="row title">
-            <div class="col-lg-6 col-12">
-              <h3>Lokasi Iklan</h3>
-            </div>
-          </div>
-          <div class="row location">
-            <div class="col-12">
-              <p>Jawa Barat, Kota Bogor</p>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5606.289102452955!2d106.79451708203854!3d-6.49069787207032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c238ad2009b7%3A0x609a4b267e53af23!2sPasar%20Bojong%20Gede!5e0!3m2!1sen!2sid!4v1601018861701!5m2!1sen!2sid"
-                width="100%" height="300" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- iklan terkait -->
-  <section class="ads-same">
-    <div class="container ads-terkait">
-      <div class="row">
-        <div class="col-12">
-          <div class="row title">
-            <div class="col-lg-4 col-12">
-              <h3>Iklan Terkait</h3>
+    <!-- iklan terkait -->
+    <section class="ads-same">
+      <div class="container ads-terkait">
+        <div class="row">
+          <div class="col-12">
+            <div class="row title">
+              <div class="col-lg-4 col-12">
+                <h3>Iklan Terkait</h3>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid ads-card-item">
-      <!-- <div class="row ads-card-same">
+      <div class="container-fluid ads-card-item">
+        <!-- <div class="row ads-card-same">
         <div class="col-12">
           <div class="container">
             <div class="row card-ads justify-content-center align-items-center">
@@ -358,122 +411,153 @@
         </div>
       </div> -->
 
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="carousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="container">
-                  <div class="row px-5 justify-content-center">
-                    <div class="col-12 col-lg-4 col-md-4 mb-2">
-                      <div class="card" style="max-width: 100%; margin: auto">
-                        <div class="card-images">
-                          <img src="asset/img/ads-2.png" class="card-img" alt="Ads-images2" />
-                          <h6 class="highlights">HIGHLIGHT</h6>
-                          <p class="prices">RP. 25.000.000</p>
-                        </div>
-                        <div class="card-body">
-                          <div class="row justify-content-between">
-                            <div class="col-lg-10 col-9 ads-title">
-                              <h5 class="card-title">MacBook Pro</h5>
-                            </div>
-                            <div class="col-lg-2 col-3">
-                              <button class="btn btn-love">
-                                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                              </button>
-                            </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div class="row px-5 justify-content-center">
+                      <div class="col-12 col-lg-4 col-md-4 mb-2">
+                        <div class="card" style="max-width: 100%; margin: auto">
+                          <div class="card-images">
+                            <img
+                              src="asset/img/ads-2.png"
+                              class="card-img"
+                              alt="Ads-images2"
+                            />
+                            <h6 class="highlights">HIGHLIGHT</h6>
+                            <p class="prices">RP. 25.000.000</p>
                           </div>
-                          <p class="card-text">
-                            2019 <br />
-                            Deskripsi
-                          </p>
-                        </div>
-                        <div class="card-footer bg-transparent">
-                          <div class="row justify-content-between">
-                            <div class="col-lg-7 col-6">
-                              <p>
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                Kota Bogor
-                              </p>
+                          <div class="card-body">
+                            <div class="row justify-content-between">
+                              <div class="col-lg-10 col-9 ads-title">
+                                <h5 class="card-title">MacBook Pro</h5>
+                              </div>
+                              <div class="col-lg-2 col-3">
+                                <button class="btn btn-love">
+                                  <i
+                                    class="fa fa-heart-o"
+                                    aria-hidden="true"
+                                  ></i>
+                                </button>
+                              </div>
                             </div>
-                            <div class="col-lg-4 col-6 details">
-                              <a href="detail.html">Details</a>
-                            </div>
+                            <p class="card-text">
+                              2019 <br />
+                              Deskripsi
+                            </p>
                           </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12 col-lg-4 col-md-4 mb-2">
-                      <div class="card" style="max-width: 100%; margin: auto">
-                        <div class="card-images">
-                          <img src="asset/img/ads-3.png" class="card-img" alt="Ads-images3" />
-                          <h6 class="highlights">HIGHLIGHT</h6>
-                          <p class="prices">RP. 25.000.000</p>
-                        </div>
-                        <div class="card-body">
-                          <div class="row justify-content-between">
-                            <div class="col-lg-10 col-9 ads-title">
-                              <h5 class="card-title">MacBook Pro</h5>
-                            </div>
-                            <div class="col-lg-2 col-3">
-                              <button class="btn btn-love">
-                                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                              </button>
-                            </div>
-                          </div>
-                          <p class="card-text">
-                            2019 <br />
-                            Deskripsi
-                          </p>
-                        </div>
-                        <div class="card-footer bg-transparent">
-                          <div class="row justify-content-between">
-                            <div class="col-lg-7 col-6">
-                              <p>
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                Kota Bogor
-                              </p>
-                            </div>
-                            <div class="col-lg-4 col-6 details">
-                              <a href="detail.html">Details</a>
+                          <div class="card-footer bg-transparent">
+                            <div class="row justify-content-between">
+                              <div class="col-lg-7 col-6">
+                                <p>
+                                  <i
+                                    class="fa fa-map-marker"
+                                    aria-hidden="true"
+                                  ></i>
+                                  Kota Bogor
+                                </p>
+                              </div>
+                              <div class="col-lg-4 col-6 details">
+                                <a href="detail.html">Details</a>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-12 col-lg-4 col-md-4 mb-2">
-                      <div class="card" style="max-width: 100%; margin: auto">
-                        <div class="card-images">
-                          <img src="asset/img/ads-1.png" class="card-img" alt="ads-image" />
-                          <h6 class="highlights">HIGHLIGHT</h6>
-                          <p class="prices">RP. 25.000.000</p>
-                        </div>
-                        <div class="card-body">
-                          <div class="row justify-content-between">
-                            <div class="col-lg-10 col-9 ads-title">
-                              <h5 class="card-title">MacBook Pro</h5>
+                      <div class="col-12 col-lg-4 col-md-4 mb-2">
+                        <div class="card" style="max-width: 100%; margin: auto">
+                          <div class="card-images">
+                            <img
+                              src="asset/img/ads-3.png"
+                              class="card-img"
+                              alt="Ads-images3"
+                            />
+                            <h6 class="highlights">HIGHLIGHT</h6>
+                            <p class="prices">RP. 25.000.000</p>
+                          </div>
+                          <div class="card-body">
+                            <div class="row justify-content-between">
+                              <div class="col-lg-10 col-9 ads-title">
+                                <h5 class="card-title">MacBook Pro</h5>
+                              </div>
+                              <div class="col-lg-2 col-3">
+                                <button class="btn btn-love">
+                                  <i
+                                    class="fa fa-heart-o"
+                                    aria-hidden="true"
+                                  ></i>
+                                </button>
+                              </div>
                             </div>
-                            <div class="col-lg-2 col-3">
-                              <button class="btn btn-love">
-                                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                              </button>
+                            <p class="card-text">
+                              2019 <br />
+                              Deskripsi
+                            </p>
+                          </div>
+                          <div class="card-footer bg-transparent">
+                            <div class="row justify-content-between">
+                              <div class="col-lg-7 col-6">
+                                <p>
+                                  <i
+                                    class="fa fa-map-marker"
+                                    aria-hidden="true"
+                                  ></i>
+                                  Kota Bogor
+                                </p>
+                              </div>
+                              <div class="col-lg-4 col-6 details">
+                                <a href="detail.html">Details</a>
+                              </div>
                             </div>
                           </div>
-                          <p class="card-text">
-                            2019 <br />
-                            Deskripsi
-                          </p>
                         </div>
-                        <div class="card-footer bg-transparent">
-                          <div class="row justify-content-between">
-                            <div class="col-lg-7 col-6">
-                              <p>
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                Kota Bogor
-                              </p>
+                      </div>
+                      <div class="col-12 col-lg-4 col-md-4 mb-2">
+                        <div class="card" style="max-width: 100%; margin: auto">
+                          <div class="card-images">
+                            <img
+                              src="asset/img/ads-1.png"
+                              class="card-img"
+                              alt="ads-image"
+                            />
+                            <h6 class="highlights">HIGHLIGHT</h6>
+                            <p class="prices">RP. 25.000.000</p>
+                          </div>
+                          <div class="card-body">
+                            <div class="row justify-content-between">
+                              <div class="col-lg-10 col-9 ads-title">
+                                <h5 class="card-title">MacBook Pro</h5>
+                              </div>
+                              <div class="col-lg-2 col-3">
+                                <button class="btn btn-love">
+                                  <i
+                                    class="fa fa-heart-o"
+                                    aria-hidden="true"
+                                  ></i>
+                                </button>
+                              </div>
                             </div>
-                            <div class="col-lg-4 col-6 details">
-                              <a href="detail.html">Details</a>
+                            <p class="card-text">
+                              2019 <br />
+                              Deskripsi
+                            </p>
+                          </div>
+                          <div class="card-footer bg-transparent">
+                            <div class="row justify-content-between">
+                              <div class="col-lg-7 col-6">
+                                <p>
+                                  <i
+                                    class="fa fa-map-marker"
+                                    aria-hidden="true"
+                                  ></i>
+                                  Kota Bogor
+                                </p>
+                              </div>
+                              <div class="col-lg-4 col-6 details">
+                                <a href="detail.html">Details</a>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -482,94 +566,106 @@
                   </div>
                 </div>
               </div>
+              <a
+                href="#carousel"
+                class="carousel-control-prev"
+                data-slide="prev"
+              >
+                <img src="asset/img/btn-left.png" width="30" height="30" />
+              </a>
+              <a
+                href="#carousel"
+                class="carousel-control-next"
+                data-slide="next"
+              >
+                <img src="asset/img/btn-right.png" width="30" height="30" />
+              </a>
             </div>
-            <a href="#carousel" class="carousel-control-prev" data-slide="prev">
-              <img src="asset/img/btn-left.png" width="30" height="30" />
-            </a>
-            <a href="#carousel" class="carousel-control-next" data-slide="next">
-              <img src="asset/img/btn-right.png" width="30" height="30" />
-            </a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- footer -->
-  <footer class="footer">
-    <div class="container footer-1 text-center">
-      <div class="row justify-content-around">
-        <div class="col-md-3">
-          <ul class="icon">
-            <li class="fb"><a href="#"> Facebook</a></li>
-            <li class="twitter"><a href="#">Twitter</a></li>
-            <li class="ig"><a href="#">Instagram</a></li>
-            <li class="wa"><a href="#">Whatsapp</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <h4>Features</h4>
-          <ul class="features">
-            <li><a href="#">Reviews</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Sosial Media Kit</a></li>
-            <li><a href="#">Affiliate</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <h4>Account</h4>
-          <ul class="account">
-            <li><a href="#">Security</a></li>
-            <li><a href="#">Rewads</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <h4>Company</h4>
-          <ul class="company">
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#">Media</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <hr />
-
-    <div class="container footer-2">
-      <div class="row text-center justify-content-center">
-        <div class="col-md-10">
-          <p>
-            2020 Copyright Anggiefebiyy • All rights reserved • Made in
-            Jakarta
-          </p>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container footer-1 text-center">
+        <div class="row justify-content-around">
+          <div class="col-md-3">
+            <ul class="icon">
+              <li class="fb"><a href="#"> Facebook</a></li>
+              <li class="twitter"><a href="#">Twitter</a></li>
+              <li class="ig"><a href="#">Instagram</a></li>
+              <li class="wa"><a href="#">Whatsapp</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Features</h4>
+            <ul class="features">
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Sosial Media Kit</a></li>
+              <li><a href="#">Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Account</h4>
+            <ul class="account">
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Rewads</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Company</h4>
+            <ul class="company">
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+      <hr />
 
-  <!-- boostrap js -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-  </script>
+      <div class="container footer-2">
+        <div class="row text-center justify-content-center">
+          <div class="col-md-10">
+            <p>
+              2020 Copyright Anggiefebiyy • All rights reserved • Made in
+              Jakarta
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-  <!-- script img-klik -->
-  <script>
-    const figure = document.querySelector('.figure');
-    const imgJumbo = document.querySelector('.jumbo-img');
+    <!-- boostrap js -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
 
-    figure.addEventListener('click', e => {
-      // check apakah yang di klik adalah figure
-      if (e.target.className == 'img-fluid img-ads') {
-        imgJumbo.src = e.target.src;
-      }
-    })
-  </script>
-</body>
+    <!-- script img-klik -->
+    <script>
+      const figure = document.querySelector(".figure");
+      const imgJumbo = document.querySelector(".jumbo-img");
 
+      figure.addEventListener("click", (e) => {
+        // check apakah yang di klik adalah figure
+        if (e.target.className == "img-fluid img-ads") {
+          imgJumbo.src = e.target.src;
+        }
+      });
+    </script>
+  </body>
 </html>
